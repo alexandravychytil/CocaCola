@@ -133,6 +133,10 @@
     line-height: 70px;
 }
 
+#menu li:hover{
+    color: #D3010E;
+}
+
 /*
  * And let's slide it in from the left
  */
