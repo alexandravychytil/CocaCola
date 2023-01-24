@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head lang="de">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/General.css">
     <link rel="stylesheet" href="../css/BurgerMenu.css">
     <title>Coca-Cola-Main</title>
@@ -9,28 +11,26 @@
 <body>
 <header class="headerMenu">
     <div class="logo">
-         <img src="../media/coca_cola_logo.png" class="center">
+        <a href="Main.html"> <img class="center" src="../media/coca_cola_logo.png" alt="coca_cola_logo"></a>
     </div>
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
-            <input type="checkbox" />
+            <input type="checkbox"/>
             <span></span>
             <span></span>
             <span></span>
             <ul id="menu">
-                <a href="../html/Main.html"><li>Main</li></a>
-                <a href="Video.html"><li>Video</li></a>
-                <a href="Information.html"><li>Information</li></a>
-                <a href="Vergleich.html"><li>Vergleich</li></a>
+                <li><a href="Main.html">Main</a></li>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="Information.html">Information</a></li>
+                <li><a href="Vergleich.html">Vergleich</a></li>
             </ul>
         </div>
     </nav>
 </header>
 <main>
     <div class="button">
-        <form action="Vergleich.html">
-            <button id="mainButton">VERSIONEN</button>
-        </form>
+            <button id="mainButton" disabled>VERSIONEN</button>
     </div>
 </main>
 <footer>

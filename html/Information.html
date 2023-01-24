@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head lang="de">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/General.css">
     <link rel="stylesheet" href="../css/BurgerMenu.css">
     <title>Coca-Cola-Information</title>
@@ -10,34 +11,54 @@
 <body>
 <header class="headerMenu">
     <div class="logo">
-        <img src="../media/coca_cola_logo.png" class="center">
+        <a href="Main.html"> <img class="center" src="../media/coca_cola_logo.png" alt="coca_cola_logo"></a>
     </div>
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
-            <input type="checkbox" />
+            <input type="checkbox"/>
             <span></span>
             <span></span>
             <span></span>
             <ul id="menu">
-                <a href="../html/Main.html"><li>Main</li></a>
-                <a href="../html/Video.html"><li>Video</li></a>
-                <a href="../html/Information.html"><li>Information</li></a>
-                <a href="../html/Vergleich.html"><li>Vergleich</li></a>
+                <li><a href="Main.html">Main</a></li>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="Information.html">Information</a></li>
+                <li><a href="Vergleich.html">Vergleich</a></li>
             </ul>
         </div>
     </nav>
 </header>
-<p><button id="informationButton" disabled>Information</button></p>
+<p>
+    <button id="informationButton" disabled>Information</button>
+</p>
 <div id="boxInfo" class="box" style="overflow:auto;">
     <div class="boxText">
         <h2>Allgemein</h2>
-        Coca-Cola ist ein kohlensäurehaltiger Erfrischungsgetränk, das von The Coca-Cola Company produziert und besessen wird. Es wurde 1886 von John Pemberton in Atlanta, Georgia erstellt. Das ursprüngliche Rezept des Getränks enthielt Koka-Blätter, die 1903 entfernt und durch einen nicht-narkotischen Sirup ersetzt wurden. Heute ist Coca-Cola eine der beliebtesten und weithin anerkannten Getränkemarken der Welt.<br>
+        Coca-Cola ist ein kohlensäurehaltiges Erfrischungsgetränk, das von The Coca-Cola Company produziert und besessen
+        wird. Es wurde 1886 von John Pemberton in Atlanta, Georgia als erstes erstellt. Das ursprüngliche Rezept des Getränks
+        enthielt Koka-Blätter, die 1903 entfernt und durch einen nicht-narkotischen Sirup ersetzt wurden. Heute ist
+        Coca-Cola eine der beliebtesten und weithin anerkanntesten Getränkemarken der Welt.<br><br>
 
-        Coca-Cola Classic ist die ursprüngliche Formel des Getränks und ist für seine braune Farbe und Karamellgeschmack bekannt.<br>
+        Coca-Cola Classic ist die ursprüngliche Formel des Getränks und ist für seine braune Farbe und Karamellgeschmack
+        bekannt.<br><br>
 
-        Coca-Cola Zero, auch bekannt als Coke Zero, ist eine zuckerfreie Version von Coca-Cola Classic. Es wurde 2005 eingeführt und als Diät-Limonade mit dem gleichen Geschmack wie das Original beworben.<br>
+        Coca-Cola Zero, auch bekannt als Coke Zero, ist eine zuckerfreie Version von Coca-Cola Classic. Es wurde 2005
+        eingeführt und als Diät-Limonade mit dem gleichen Geschmack wie das Original beworben.<br><br>
 
-        Coca-Cola Light, bekannt als Diet Coke in den USA und Kanada, ist eine zucker- und kalorienfreie Version von Coca-Cola Classic. Es wurde 1982 eingeführt und als gesündere Alternative zum Original beworben.<br>
+        Coca-Cola Light, bekannt als Diet Coke in den USA und Kanada, ist eine zucker- und kalorienfreie Version von
+        Coca-Cola Classic. Es wurde 1982 eingeführt und als gesündere Alternative zum Original beworben.<br>
+
+        <br>Die öffentlich bekannten Zutaten der Coca Cola:
+        <ul>
+            <li class="boxText">Wasser</li>
+            <li class="boxText">Zucker</li>
+            <li class="boxText">Kohlensäure</li>
+            <li class="boxText">Farbstoff E 150d</li>
+            <li class="boxText">Säurungsmittel</li>
+            <li class="boxText">Phosphorsäure</li>
+            <li class="boxText">Aroma</li>
+            <li class="boxText">Aroma Koffein</li>
+        </ul>
     </div>
 </div>
 <footer>

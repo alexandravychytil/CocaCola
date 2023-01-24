@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/General.css">
     <link rel="stylesheet" href="../css/BurgerMenu.css">
     <title>Coca-Cola-Vergleich</title>
@@ -10,43 +11,53 @@
 <body>
 <header class="headerMenu">
     <div class="logo">
-        <img src="../media/coca_cola_logo.png" class="center">
+        <a href="Main.html"> <img class="center" src="../media/coca_cola_logo.png" alt="coca_cola_logo"></a>
     </div>
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
-            <input type="checkbox" />
+            <input type="checkbox"/>
             <span></span>
             <span></span>
             <span></span>
             <ul id="menu">
-                <a href="../html/Main.html"><li>Main</li></a>
-                <a href="../html/Video.html"><li>Video</li></a>
-                <a href="../html/Information.html"><li>Information</li></a>
-                <a href="../html/Vergleich.html"><li>Vergleich</li></a>
+                <li><a href="Main.html">Main</a></li>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="Information.html">Information</a></li>
+                <li><a href="Vergleich.html">Vergleich</a></li>
             </ul>
         </div>
     </nav>
 </header>
-<p><button id="informationButton" disabled>Vergleich</button></p>
+<p>
+    <button id="informationButton" disabled>Vergleich</button>
+</p>
 <div id="boxVergleich" class="box" style="overflow:auto;">
     <div class="boxText">
         <div class="container">
             <div class="row">
                 <div class="col-sm" id="colaText">
                     <h2>Normal</h2>
-                    <div class="vergleichText">Cola ist das ursprüngliche Rezept und die beliebteste Version von Coca-Cola.<br>Es hat einen einzigartigen Geschmack und einen süßen Geschmack.</div>
+                    <div class="vergleichText">Cola Original ist das ursprüngliche Rezept und die beliebteste Version von
+                        Coca-Cola.<br>Es hat einen einzigartigen und süssen Geschmack. Die Coca-Cola Original verwendet Zucker als Süssstoff.
+                    </div>
                 </div>
                 <div class="col-sm">
                     <h2 id="zeroText">Zero</h2>
-                    <div class="vergleichText">Cola Zero, auch als Diet Coke bekannt, ist eine zuckerfreie Version von Coca-Cola.<br> Es verwendet künstliche Süßstoffe wie Aspartam und  Acesulfam-Kalium,<br> um einen süßen Geschmack ohne zusätzliche Kalorien zu bieten.</div>
+                    <div class="vergleichText">Cola Zero, auch als Diet Coke bekannt, ist eine zuckerfreie Version von
+                        Coca-Cola.<br> Es werden künstliche Süßstoffe wie Aspartam und Acesulfam-Kalium verwendet,<br> um einen
+                        süssen Geschmack ohne zusätzliche Kalorien zu erreichen.
+                    </div>
                 </div>
                 <div class="col-sm">
-                   <h2 id="lightText">Light</h2>
-                    <div class="vergleichText">Cola Light, auch als Diet Coke in einigen Ländern bekannt, ist eine low-calorie-Version von Coca-Cola.<br> Es verwendet eine Mischung aus künstlichen Süßstoffen, wie Aspartam und Acesulfam-Kalium,<br> um einen süßen Geschmack mit weniger Kalorien als reguläres Coca-Cola zu bieten.</div>
+                    <h2 id="lightText">Light</h2>
+                    <div class="vergleichText">Cola Light ist auch eine
+                        low-calorie-Version von Coca-Cola, welche für einen leicht abgänderten Geschmack bekannt ist. Bei der light Version wird auch eine Mischung aus künstlichen Süßstoffen verwendet,
+                       jedoch mit einer anderen Zusammensetzung, als die Zero Version. So bietet Cola Light eine weitere kalorienarme Version mit einem süßen abgänderten Geschmack.
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 </div>
 <footer>
     <a href="../html/AGB.html">AGB</a>
